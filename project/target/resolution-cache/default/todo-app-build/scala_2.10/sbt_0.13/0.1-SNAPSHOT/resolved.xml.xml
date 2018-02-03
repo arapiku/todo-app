@@ -4,7 +4,7 @@
 		module="todo-app-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180202222400"
+		publication="20180202230141"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
