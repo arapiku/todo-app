@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ff976a9-01e1-4a7c-86d9-14019820e341" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/Todo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/TodoList.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$00f09f7fecbada71e10c$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$00f09f7fecbada71e10c$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$00f09f7fecbada71e10c$$anonfun$$sbtdef$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$00f09f7fecbada71e10c$$anonfun$$sbtdef$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$00f09f7fecbada71e10c$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$00f09f7fecbada71e10c.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$00f09f7fecbada71e10c.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/todo-app-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/todo-app-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
       <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/todo-app-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/todo-app-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
       <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-todo-app-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-todo-app-build-compile-internal.xml" />
@@ -35,6 +26,19 @@
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-docs.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-sources.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app$sources_2.11-test.xml" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app_2.11-compile-internal.xml" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app_2.11-compile.xml" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app_2.11-docs.xml" />
@@ -48,14 +52,68 @@
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app_2.11-sources.xml" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app_2.11-test-internal.xml" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/todo-app-todo-app_2.11-test.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/todo-app/todo-app$sources_2.11/1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/todo-app/todo-app$sources_2.11/1.0-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/todo-app/todo-app$sources_2.11/1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/todo-app/todo-app$sources_2.11/1.0-SNAPSHOT/resolved.xml.xml" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/todo-app/todo-app_2.11/1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/todo-app/todo-app_2.11/1.0-SNAPSHOT/resolved.xml.properties" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/todo-app/todo-app_2.11/1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/todo-app/todo-app_2.11/1.0-SNAPSHOT/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/application.conf" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/application.conf" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Filters.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Module.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/AsyncController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/CountController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/HomeController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/ReverseAssets.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/ReverseAsyncController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/ReverseCountController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/ReverseHomeController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/javascript/ReverseAssets.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/javascript/ReverseAsyncController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/javascript/ReverseCountController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/javascript/ReverseHomeController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/routes$javascript.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/routes.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/filters/ExampleFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Todo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/TodoList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$documentation$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Assets_versioned3_invoker$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_AsyncController_message2_invoker$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_CountController_count1_invoker$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_HomeController_index0_invoker$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/RoutesPrefix$$anonfun$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/RoutesPrefix$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/RoutesPrefix.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/services/ApplicationTimer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/services/AtomicCounter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/services/Counter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index_Scope0$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index_Scope0$index$$anonfun$f$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index_Scope0$index.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index_Scope0.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/main$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/main_Scope0$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/main_Scope0$main$$anonfun$f$1$$anonfun$apply$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/main_Scope0$main$$anonfun$f$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/main_Scope0$main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/main_Scope0.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -623,7 +681,7 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1517578489789" />
+    <option name="lastUpdateTimestamp" value="1517649419491" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -670,7 +728,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1418" height="857" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -678,7 +735,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
