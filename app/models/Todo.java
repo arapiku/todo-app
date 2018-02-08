@@ -11,6 +11,10 @@ import java.util.Date;
 @Table(name = "todo")
 public class Todo extends Model {
 
+    public static Finder<Long, Todo> find = new Finder<>(
+        Long.class, Todo.class
+    );
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long id;
