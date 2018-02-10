@@ -2,6 +2,8 @@ package models;
 
 
 import com.avaje.ebean.Model;
+import com.avaje.ebean.annotation.CreatedTimestamp;
+import play.data.validation.Constraints;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
@@ -21,15 +23,17 @@ public class Todo extends Model {
 
     @NotNull
     @Column(length = 30)
+    @Constraints.Required
     public String title;
 
     @NotNull
     @Column(name = "deadline_at")
+    @Constraints.Required
     public Date deadlineAt;
 
-    @Temporal(TemporalType.TIMESTAMP)
     @NotNull
     @Column(name = "created_at")
+    @CreatedTimestamp
     public Date createdAt;
 
     @NotNull
