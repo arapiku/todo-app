@@ -1,0 +1,16 @@
+@(msg: String, form: Form[models.TodoList])
+
+@main("Edit Page") {
+
+    <h1>Update Data</h1>
+    <p>@msg</p>
+    @helper.form(action = routes.TodoListController.update) {
+        <input type="hidden" value="@form("id").value" name="id">
+
+        @(helper.inputText (
+            field = form("title")
+        ))
+
+        <input type="submit">
+    }
+}
