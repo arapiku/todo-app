@@ -4,10 +4,8 @@
 
 # An example controller showing a sample home page
 GET     /                           controllers.TodoListController.index
-# An example controller showing how to use dependency injection
-GET     /count                      controllers.CountController.count
-# An example controller showing how to write asynchronous code
-GET     /message                    controllers.AsyncController.message
+GET     /add                        controllers.TodoListController.add
+POST    /create                     controllers.TodoListController.create
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

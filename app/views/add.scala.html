@@ -1,0 +1,13 @@
+@(form: Form[models.TodoList])
+
+@main("Sample Page") {
+    <h1>Hello!</h1>
+    @helper.form(action = routes.TodoListController.create) {
+
+        @(helper.inputText (
+            field = form("title")
+        ))
+
+        <input type="submit">
+    }
+}
