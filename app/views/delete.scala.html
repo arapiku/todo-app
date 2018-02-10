@@ -1,0 +1,17 @@
+@(msg: String, form: Form[models.TodoList])
+
+@main("Delete Page") {
+
+    <h1>delete data</h1>
+    <p>@msg</p>
+    @helper.form(action = routes.TodoListController.remove) {
+
+        @(helper.inputText (
+            field = form("id")
+        ))
+
+        <input type="hidden" value="dummy" name="title">
+
+        <input type="submit">
+    }
+}

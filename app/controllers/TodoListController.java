@@ -1,6 +1,6 @@
 package controllers;
 
-import models.TodoList;
+import models.*;
 import play.data.Form;
 import play.mvc.*;
 import views.html.*;
@@ -69,6 +69,28 @@ public class TodoListController extends Controller {
             return redirect("/");
         } else {
             return ok(edit.render("ERROR:再度入力してください。", f));
+        }
+    }
+
+    public Result delete() {
+        Form<TodoList> f = form(TodoList.class);
+        return ok(delete.render("削除するID番号", f));
+    }
+
+    public Result remove() {
+        Form<TodoList> f = form(TodoList.class).bindFromRequest();
+        if (!f.hasErrors()) {
+            TodoList obj = f.get();
+            Long id = obj.id;
+            obj = TodoList.find.byId(id);
+            if(obj != null) {
+                obj.delete();
+                return redirect("/");
+            } else {
+                return ok(single.render("ERROR:IDの投稿が見つかりません。", f));
+            }
+        } else {
+            return ok(single.render("ERROR:入力に問題があります。", f));
         }
     }
 }
