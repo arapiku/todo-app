@@ -1,6 +1,7 @@
 package models;
 
 import com.avaje.ebean.Model;
+import play.data.validation.Constraints;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
@@ -20,6 +21,7 @@ public class TodoList extends Model {
 
     @NotNull
     @Column(length = 30)
+    @Constraints.Required
     public String title;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "list")

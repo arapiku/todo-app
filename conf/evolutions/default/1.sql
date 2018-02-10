@@ -7,9 +7,9 @@ create table todo (
   id                            bigint auto_increment not null,
   title                         varchar(30) not null,
   deadline_at                   datetime(6) not null,
-  created_at                    datetime(6) not null,
   status                        BIT DEFAULT FALSE not null,
   list_id                       bigint not null,
+  created_at                    datetime(6) not null,
   constraint pk_todo primary key (id)
 );
 
