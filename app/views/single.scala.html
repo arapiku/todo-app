@@ -1,0 +1,16 @@
+@(msg: String, form: Form[models.TodoList])
+
+@main("Single Page") {
+    <h1>Input ID Number</h1>
+    <p>@msg</p>
+    @helper.form(action = routes.TodoListController.edit) {
+
+        @(helper.inputText (
+            field = form("id")
+        ))
+
+        <input type="hidden" value="dummy" name="title">
+
+        <input type="submit">
+    }
+}
