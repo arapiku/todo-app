@@ -9,6 +9,8 @@ POST    /create                     controllers.TodoListController.create
 GET     /single                     controllers.TodoListController.setItem
 POST    /edit                       controllers.TodoListController.edit
 POST    /update                     controllers.TodoListController.update
+GET     /delete                     controllers.TodoListController.delete
+POST    /remove                     controllers.TodoListController.remove
 # An example controller showing how to use dependency injection
 GET     /count                      controllers.CountController.count
 # An example controller showing how to write asynchronous code
