@@ -43,4 +43,9 @@ public class Todo extends Model {
     @ManyToOne(optional = false)
     public TodoList list;
 
+    @Override
+    public String toString() {
+        return ("[id:" + id + ", title:" + title + ", deadline_at:" + deadlineAt + ", created_at:" + createdAt + ", status:" + status + ", list_id:" + list + "]");
+    }
+
 }
