@@ -12,6 +12,7 @@ POST    /update                     controllers.TodoListController.update
 GET     /delete                     controllers.TodoListController.delete
 POST    /remove                     controllers.TodoListController.remove
 GET     /find                       controllers.TodoListController.find
+GET     /:id                        controllers.TodoController.index(id: Long)
 # An example controller showing how to use dependency injection
 GET     /count                      controllers.CountController.count
 # An example controller showing how to write asynchronous code
