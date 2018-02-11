@@ -2,6 +2,7 @@ package controllers;
 
 import models.*;
 import play.data.Form;
+import play.data.validation.Constraints;
 import play.mvc.*;
 import views.html.*;
 
@@ -92,5 +93,21 @@ public class TodoListController extends Controller {
         } else {
             return ok(single.render("ERROR:入力に問題があります。", f));
         }
+    }
+
+    public static class FindForm {
+        @Constraints.Required(message = "タイトルを入力してください。")
+        public String input;
+    }
+
+    public Result find() {
+        Form<FindForm> f = form(FindForm.class).bindFromRequest();
+        List<TodoList> todos = null;
+        if (!f.hasErrors()) {
+            String input = f.get().input;
+            String q = "title like '%" + input + "%'";
+            todos = TodoList.find.where().raw(q).findList();
+        }
+        return ok(find.render("投稿の検索", f, todos));
     }
 }
