@@ -21,10 +21,15 @@ public class TodoList extends Model {
 
     @NotNull
     @Column(length = 30)
-    @Constraints.Required
+    @Constraints.Required(message = "タイトルを入力してください。")
     public String title;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "list")
     public List<Todo> todo = new ArrayList<>();
+
+    @Override
+    public String toString() {
+        return ("[id:" + id + ", title:" + title + "]");
+    }
 
 }
