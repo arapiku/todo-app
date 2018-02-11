@@ -1,0 +1,18 @@
+@(msg: String, form: Form[TodoListController.FindForm], todos: List[TodoList])
+
+@main("Find Page") {
+
+    <h1>Find Data</h1>
+    <p>@msg</p>
+    @helper.form(action = routes.TodoListController.find) {
+
+        @(helper.inputText (
+            field = form("input")
+        ))
+
+        <input type="submit">
+    }
+
+    <hr>
+    <p>@todos</p>
+}
