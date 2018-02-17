@@ -6,11 +6,50 @@ import play.data.validation.Constraints;
 import play.mvc.*;
 import views.html.*;
 
-import java.util.List;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 import static play.data.Form.form;
 
 public class TodoListController extends Controller {
+
+    public static String remainingTodo(Long id) {
+        List<Todo> todoAll = Todo.find.where().eq("list_id", id).findList();
+        int count = 0;
+        if(todoAll.size() != 0) {
+            for (models.Todo todo : todoAll) {
+                if (todo.status) {
+                    count++;
+                }
+            }
+            String result = todoAll.size() + "個中" + count + "個がチェック済み";
+            return result;
+        } else {
+            return "Todoがありません。";
+        }
+    }
+
+    public static String closeToTheDeadLine(Long id) {
+        List<Todo> todoAll = Todo.find.where().eq("list_id", id).order().asc("deadline_at").findList();
+        Date date = null;
+        if (todoAll.size() != 0) {
+            for (models.Todo todo : todoAll) {
+                if (!todo.status) {
+                    date = todo.deadlineAt;
+                    break;
+                }
+            }
+            if(date != null) {
+                SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日");
+                String result = "~" + sdf.format(date);
+                return result;
+            } else {
+                return "";
+            }
+        } else {
+            return "";
+        }
+    }
 
     public Result index() {
         /**
@@ -18,25 +57,21 @@ public class TodoListController extends Controller {
          *
          * @return 処理結果
          */
-
-
         List<TodoList> todoListAll = TodoList.find.all();
-        return Results.ok(index.render(todoListAll));
-    }
-
-    public Result add() {
         Form<TodoList> f = form(TodoList.class);
-        return ok(add.render(f));
+        return Results.ok(index.render("Todoリスト",todoListAll, f, ""));
+
     }
 
     public Result create() {
+        List<TodoList> todoListAll = TodoList.find.all();
         Form<TodoList> f = form(TodoList.class).bindFromRequest();
         if (!f.hasErrors()) {
-            TodoList data = f.get();
-            data.save();
-            return redirect("/");
+            TodoList todoListGet = f.get();
+            todoListGet.save();
+            return Results.created(index.render("Todoリスト", todoListAll, f, "新しいTodoリストが作成されました。"));
         } else {
-            return badRequest(add.render(f));
+            return badRequest(index.render("Todoリスト", todoListAll, f, ""));
         }
     }
 
